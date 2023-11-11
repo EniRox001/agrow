@@ -48,7 +48,7 @@ class AgrowButton extends StatelessWidget {
                   width: 1.0,
                 )
               : BorderSide.none,
-          borderRadius: BorderRadius.circular(radius ?? 16.0.r),
+          borderRadius: BorderRadius.circular(radius ?? 8.0.r),
         ),
       ),
       onPressed: onPressed,

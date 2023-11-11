@@ -10,5 +10,9 @@ class AllPages {
       name: Routes.onboarding,
       page: () => const Onboarding(),
     ),
+    GetPage(
+      name: Routes.login,
+      page: () => const Login(),
+    ),
   ];
 }
