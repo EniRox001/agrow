@@ -11,8 +11,8 @@ class AllPages {
       page: () => const Onboarding(),
     ),
     GetPage(
-      name: Routes.login,
-      page: () => const Login(),
+      name: Routes.authHome,
+      page: () => const AuthHome(),
     ),
   ];
 }

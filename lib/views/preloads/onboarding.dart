@@ -84,7 +84,7 @@ class _OnboardingState extends State<Onboarding> {
               AgrowButton(
                 onPressed: () {
                   if (buttonText == 'Get Started') {
-                    Get.offAllNamed(Routes.login);
+                    Get.offAllNamed(Routes.authHome);
                   } else {
                     controller.nextPage(duration: 600.ms, curve: Curves.easeIn);
                   }
