@@ -20,12 +20,12 @@ export 'package:agrow/views/preloads/onboarding.dart';
 export 'package:agrow/views/auth/auth_home.dart';
 export 'package:agrow/views/auth/tabs/registration.dart';
 export 'package:agrow/views/auth/tabs/login.dart';
-export 'package:agrow/views/auth/tabs/registration_type.dart';
 
 // ========================== Constants ========================== //
 export 'package:agrow/common/strings/en_gb.dart';
 export 'package:agrow/common/utilities/colors.dart';
 export 'package:agrow/common/utilities/text_styles.dart';
+export 'package:agrow/common/enums/account_type.dart';
 
 // ========================== Generated ========================== //
 export 'package:agrow/gen/assets.gen.dart';
@@ -36,3 +36,4 @@ export 'package:agrow/widgets/layout/onboarding_slide.dart';
 export 'package:agrow/widgets/layout/agrow_divider.dart';
 export 'package:agrow/widgets/input/agrow_input_field.dart';
 export 'package:agrow/widgets/input/agrow_checkbox.dart';
+export 'package:agrow/widgets/input/agrow_picture_tile.dart';

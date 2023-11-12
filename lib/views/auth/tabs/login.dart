@@ -41,9 +41,13 @@ class _LoginState extends State<Login> {
               },
             ),
             const Spacer(),
-            Text(
-              'Forgot Password?',
-              style: AppTextStyles.regular,
+            InkWell(
+              child: Text(
+                'Forgot Password?',
+                style: AppTextStyles.regular.copyWith(
+                  color: AppColors.primaryColor,
+                ),
+              ),
             ),
           ],
         ),

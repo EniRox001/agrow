@@ -27,6 +27,14 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/buyer_image.png
+  AssetGenImage get buyerImage =>
+      const AssetGenImage('assets/images/buyer_image.png');
+
+  /// File path: assets/images/farmer_image.png
+  AssetGenImage get farmerImage =>
+      const AssetGenImage('assets/images/farmer_image.png');
+
   /// File path: assets/images/onboarding_one_image.png
   AssetGenImage get onboardingOneImage =>
       const AssetGenImage('assets/images/onboarding_one_image.png');
@@ -40,8 +48,13 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/onboarding_two_image.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [onboardingOneImage, onboardingThreeImage, onboardingTwoImage];
+  List<AssetGenImage> get values => [
+        buyerImage,
+        farmerImage,
+        onboardingOneImage,
+        onboardingThreeImage,
+        onboardingTwoImage
+      ];
 }
 
 class Assets {

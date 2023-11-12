@@ -20,7 +20,16 @@ class _AuthHomeState extends State<AuthHome>
     );
   }
 
+  bool showSelectAccountUI = false;
+
   bool rememberMe = false;
+  AccountType? accountType;
+
+  void setAccountType(AccountType type) {
+    setState(() {
+      accountType = type;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -53,9 +62,7 @@ class _AuthHomeState extends State<AuthHome>
                 controller: _tabController,
                 children: const [
                   Login(),
-                  Center(
-                    child: Text('Sign Up'),
-                  ),
+                  Register(),
                 ],
               ),
             ),
