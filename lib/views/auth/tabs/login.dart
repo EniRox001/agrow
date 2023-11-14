@@ -22,11 +22,12 @@ class _LoginState extends State<Login> {
         ScreenUtil().setVerticalSpacing(20.0.h),
         const AgrowInputField(
           hintText: 'Password',
+          suffixIcon: Icons.visibility_off_outlined,
         ),
         ScreenUtil().setVerticalSpacing(30.0.h),
         AgrowButton(
           text: 'Login',
-          onPressed: () {},
+          onPressed: () => Get.toNamed(Routes.verification),
         ),
         ScreenUtil().setVerticalSpacing(18.0.h),
         Row(

@@ -51,7 +51,7 @@ class _RegisterState extends State<Register> {
               ScreenUtil().setVerticalSpacing(40.0.h),
               AgrowButton(
                 text: 'Register',
-                onPressed: () {},
+                onPressed: () => Get.toNamed(Routes.verification),
               ),
               ScreenUtil().setVerticalSpacing(18.0.h),
               AgrowCheckbox(

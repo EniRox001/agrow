@@ -53,7 +53,7 @@ class _AuthHomeState extends State<AuthHome>
                   text: 'Login',
                 ),
                 Tab(
-                  text: 'Sign Up',
+                  text: 'Register',
                 ),
               ],
             ),

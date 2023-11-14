@@ -14,5 +14,9 @@ class AllPages {
       name: Routes.authHome,
       page: () => const AuthHome(),
     ),
+    GetPage(
+      name: Routes.verification,
+      page: () => const Verification(),
+    ),
   ];
 }

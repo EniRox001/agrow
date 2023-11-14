@@ -12,6 +12,10 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/agrow_icon.png
+  AssetGenImage get agrowIcon =>
+      const AssetGenImage('assets/icons/agrow_icon.png');
+
   /// File path: assets/icons/apple_icon.png
   AssetGenImage get appleIcon =>
       const AssetGenImage('assets/icons/apple_icon.png');
@@ -21,7 +25,7 @@ class $AssetsIconsGen {
       const AssetGenImage('assets/icons/google_icon.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [appleIcon, googleIcon];
+  List<AssetGenImage> get values => [agrowIcon, appleIcon, googleIcon];
 }
 
 class $AssetsImagesGen {

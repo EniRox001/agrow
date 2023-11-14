@@ -20,6 +20,7 @@ export 'package:agrow/views/preloads/onboarding.dart';
 export 'package:agrow/views/auth/auth_home.dart';
 export 'package:agrow/views/auth/tabs/registration.dart';
 export 'package:agrow/views/auth/tabs/login.dart';
+export 'package:agrow/views/auth/verification.dart';
 
 // ========================== Constants ========================== //
 export 'package:agrow/common/strings/en_gb.dart';
